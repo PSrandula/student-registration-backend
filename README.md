@@ -58,12 +58,14 @@ enabled-student-registration-backend/
 **POST** `/api/register`
 
 **Request Body:**
-```json
+
 {
   "name": "Pasindu Randula",
   "email": "pasindu@example.com",
   "className": "Web Development"
 }
+
+---
 
 ## Success Response:
 
@@ -71,3 +73,30 @@ enabled-student-registration-backend/
   "message": "Registration successful. Confirmation email sent.",
   "registrationId": "SR-XXXXXX"
 }
+
+## Setup Instructions
+Clone the repository:
+
+git clone https://github.com/yourusername/student-registration-backend.git
+cd student-registration-backend
+
+Install dependencies:
+
+npm install
+
+Create a .env file and configure:
+makefile
+
+PORT=5000
+EMAIL_USER=your_gmail@example.com
+EMAIL_PASS=your_app_password
+
+FIREBASE_API_KEY=...
+FIREBASE_DATABASE_URL=...
+...
+
+Start the server:
+
+npm start
+
+Lets go!
