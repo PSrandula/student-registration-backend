@@ -77,7 +77,7 @@ enabled-student-registration-backend/
 ## Setup Instructions
 Clone the repository:
 
-git clone https://github.com/yourusername/student-registration-backend.git
+git clone https://github.com/PSrandula/student-registration-backend.git
 cd student-registration-backend
 
 Install dependencies:
